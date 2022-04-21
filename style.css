@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+}
+img {
+  max-width: 100%;
+}
+.hidden {
+  display: none !important;
+}
+body {
+  font-size: 14px;
+  overflow-x: hidden;
+}
+.color-blue {
+  color: #438FF1;
+}
+.margin-10px {
+  margin-bottom: 20px;
+}
+/* */
+.heading-1-design {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  margin-bottom: 38px;
+}
+.paragraph-1-design {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.button-1-design {
+  min-height: 58px;
+  min-width: 305px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #438FF1 0%, #5711CD 100%);
+  color: white;
+  margin-bottom: 22px;
+}
+.section-1-design {
+  padding-top: 88px;
+  padding-bottom: 97px;
+}
+/* */
+.customer-reviews-section {
+  padding-bottom: 100px;
+  background: #F6F9FE;
+}
+.pricing-section {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background: url('./assets/Ellipse525.png') no-repeat;
+  background-position: right top;
+}
+.pricing-section .travel-guide {
+  background: linear-gradient(180deg, #E7F1FD 0%, #A1C7F8 100%);
+  border-radius: 25px;
+  padding: 43px 34px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.travel-guide-price {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  padding-bottom: 41px;
+}
+.travel-guide-price span {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+}
+.travel-guide-after-image {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  padding-bottom: 45px;
+  border-bottom: 1px solid white;
+  margin-bottom: 45px;
+  width: 100%;
+}
+.travel-guide-description {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding-bottom: 0;
+}
+.pricing-section .travel-agencies {
+  background: linear-gradient(360deg, rgba(87, 17, 205, 0.69) 0%, rgba(87, 17, 205, 0.2) 100%);
+  border-radius: 25px;
+  padding: 43px 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+  background: #000000;
+  min-height: 138px;
+}
+nav {
+  background: rgba(255, 255, 255, 0.2);
+}
+nav .nav-link-popup {
+  background: linear-gradient(90deg, #438FF1 0%, #5711CD 100%);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  height: 58px;
+  width: 203px;
+  border-radius: 30px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white !important;
+  margin-top: 10px;
+  margin-bottom: 21px;
+}
+.header-intro {
+  background: linear-gradient(180deg, #FFFFFF 0%, #E8F1FD 100%);
+}
+.best-software-for {
+  background: #F6F9FE;
+}
+.get-started-today-bg {
+  background: #F6F9FE;
+  padding-top: 99px;
+  padding-bottom: 101px;
+}
+.get-started-overlay {
+  background: url('./assets/get-started-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+  padding-top: 99px;
+  padding-bottom: 96px;
+}
+.get-started-today-bg h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  margin-bottom: 38px;
+}
+.get-started-today-bg button {
+  color: black;
+  border-radius: 30px;
+  height: 58px;
+  width: 305px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+}
+.get-started-today-bg p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-bottom: 0;
+  margin-top: 22px;
+  font-style: normal;
+}
+.best-software-for {
+  background: #F6F9FE;
+  padding-top: 88px;
+  padding-bottom: 104px;
+}
+.best-software-for h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  margin-bottom: 1.8rem;
+}
+.best-software-for h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+.best-software-for .best-software-benefit {
+  padding: 50px 0;
+  background: white;
+  border-radius: 25px;
+}
+.everything-you-need {
+  padding-top: 84px;
+  padding-bottom: 100px;
+  background: url('./assets/Ellipse524.png');
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-position: 0% -60%;
+}
+.everything-you-need h2 {
+  margin-bottom: 40px;
+font-size: 40px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0em;
+}
+.everything-you-need-container {
+  border: 1px solid #D9E9FC;
+  min-height: 214px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 0 63px;
+}
+.everything-you-need-container .image-rouned-bubble {
+  background: blue;
+  border-radius: 50%;
+  padding: 1rem;
+  border: 0;
+  margin-bottom: 20px;
+}
+.everything-you-need-container h3 {
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+
+}
+.header-intro-inner {
+  background: url('./assets/Group3311.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  padding-top: 292px;
+  padding-bottom: 200px;
+}
+.header-intro-inner h1 {
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+margin-bottom: 2.6rem;
+}
+.header-intro-inner h2 {
+font-size: 36px;
+font-weight: 500;
+line-height: 45px;
+letter-spacing: 0em;
+}
+.start-4-steps {
+  padding-top: 87px;
+  padding-bottom: 51px;
+}
+.start-4-steps h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  margin-bottom: 30px;
+}
+.start-4-steps-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.start-4-steps-description h3 {
+  font-family: Quicksand;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+.start-4-steps-description p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+.start-4-steps .carousel-inner {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.start-4-steps .carousel-control-prev-icon {
+  background: url('./assets/Group3294.png') no-repeat;
+  background-size: cover;
+}
+.start-4-steps .carousel-control-next-icon {
+  background: url('./assets/Group3313.png') no-repeat;
+  background-size: cover;
+}
+.start-4-steps .carousel-control-next,.start-4-steps .carousel-control-prev {
+  width: auto;
+}
+.start-4-steps .carousel-indicators [data-bs-target] {
+  background: #C4C4C4;
+  width: 24px;
+  height: 4px;
+  border-radius: 50%;
+  margin-left: 0;
+  margin-right: 4px;
+}
+.get-started-today button {
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+}
+.start-4-steps .carousel-inner {
+  padding-bottom: 47px;
+}
+/* */
+.swiper {
+  width: 120% !important;
+  height: 100%;
+  margin-left: -10%;
+  margin-right: -10%;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+.customer-reviews-section .swiper-slide {
+  padding: 41px;
+}
+.customer-reviews-section .swiper-slide .card-img img {
+  border-radius: 50%;
+  margin-bottom: 1.3rem;
+}
+.customer-reviews-section .swiper-slide .star-rating {
+  width: 98px;
+  margin-bottom: 16px;
+}
+.customer-reviews-section .swiper-slide .user-status{
+  color: #9C9C9C;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.01em;
+margin-bottom: 0;
+}
+.customer-reviews-section .swiper-slide h3 {
+font-size: 20px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0.01em;
+color: #171616;
+margin-bottom: 4px;
+}
+.customer-reviews-section .swiper-slide .review-description {
+  margin-bottom: 28px;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.01em;
+}
+.customer-reviews-section .swiper-slide .user-username {
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.01em;
+margin-bottom: 0;
+}
+.everything-you-need-container {
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 960px) {
+  nav .navbar-nav.ms-auto {
+    align-items: center;
+  } 
+  .header-intro-inner {
+    padding-top: 130px;
+    background-size: contain;
+    padding-bottom: 450px;
+  }
+  .everything-you-need-container {
+    padding: 1rem;
+    min-height: 240px;
+  }
+  .mt-sm-2 {
+    margin-top: 1rem;
+  }
+  .get-started-today-bg {
+    padding: 0
+  }
+  .get-started-overlay {
+    border-radius: 0;
+  }
+  .start-4-steps .carousel-control-next {
+    padding-right: 1rem;
+  }
+  .start-4-steps .carousel-control-prev {
+    padding-left: 1rem;
+  }
+  .pricing-section .travel-guide,.pricing-section .travel-agencies {
+    padding: 2rem 1rem;
+  }
+  .swiper {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  .navbar-expand .navbar-nav .nav-link {
+    margin: 0;
+  }
+  .best-software-benefit {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .start-4-steps-description p {
+    font-size: 18px;
+    margin: 0;
+  }
+  .start-4-steps-description h3 {
+    font-size: 24px;
+  }
+}
